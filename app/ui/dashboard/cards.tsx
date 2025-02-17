@@ -10,7 +10,6 @@ import { fetchCardData } from '@/app/lib/data';
 const { numberOfCustomers, numberOfInvoices, totalPaidInvoices, totalPendingInvoices } =
   await fetchCardData();
 
-
 const iconMap = {
   collected: BanknotesIcon,
   customers: UserGroupIcon,
